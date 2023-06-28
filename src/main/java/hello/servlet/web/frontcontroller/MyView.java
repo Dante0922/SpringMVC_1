@@ -17,5 +17,6 @@ public class MyView {
         RequestDispatcher dispatcher = request.getRequestDispatcher(viewPath);
         dispatcher.forward(request, response);
         System.out.println("MyView.render");
+        System.out.println("viewPath = " + viewPath);
     }
 }
